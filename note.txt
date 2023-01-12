@@ -1,0 +1,20 @@
+footer tunhap
+news
+	tieuchi 88 80
+	dich vu 1 cap 315 315
+	ly do chon bv 33 33
+	tin tuc 265 240 nhiu hon 6 xem them
+	binh luan 80 80
+newsletter
+	ho ten dt, nd
+photo
+	chung nhan 285 365
+	banner 710 90
+	slider 485
+	logo 100 115
+product
+	album anh 420 320
+static
+	gioi thieu
+	linehe
+	slogan dich vu
