@@ -247,3 +247,4 @@
 ::1(admin)--query--tables(delete from table_news where id = '92') (10:55:53 13/01/2023)
 ::1(admin)--query--tables(delete from table_seo where id_parent = '92' and com = 'news' and act = 'man' and type = 'ho-so-nang-luc') (10:55:53 13/01/2023)
 ::1(admin)--query--tables(delete from table_news_tags where id_parent = '92') (10:55:53 13/01/2023)
+::1(admin)--query--tables(delete from table_user_online where time < 1673581614) (10:56:54 13/01/2023)
