@@ -186,17 +186,14 @@ switch ($com) {
 		$source = "product";
 		$template = isset($_GET['id']) ? "album/album_detail" : "album/album";
 		$seo->set('type',isset($_GET['id']) ? "article" : "object");
-
 		$type = $com;
 		$titleMain = thuvienanh;
 		break;
 
 	case 'chung-nhan':
 		$source = "product";
-		$template = isset($_GET['id']) ? "album/album_detail" : "";
-		$seo->set('type',isset($_GET['id']) ? "article" : "object");
+		$template = "album/chungnhan";
 		$seo->set('type','article');
-
 		$type = $com;
 		$titleMain = null;
 		break;

@@ -503,7 +503,7 @@ function saveMan()
 				$fileUpdate = array();
 				$file_name = $func->uploadName($_FILES['file_attach']["name"]);
 
-				if ($file_attach = $func->uploadImage("file_attach", $config['news'][$type]['img_type'], UPLOAD_FILE, $file_name)) {
+				if ($file_attach = $func->uploadImage("file_attach", $config['news'][$type]['file_type'], UPLOAD_FILE, $file_name)) {
 					$fileUpdate['file_attach'] = $file_attach;
 					$d->where('id', $id_insert);
 					$d->update('news', $fileUpdate);

@@ -19,6 +19,8 @@ $dichvu = $cache->get("select name$lang,desc$lang, slugvi, slugen,photo, id from
 
 $hoso = $cache->get("select name$lang, slugvi,file_attach, slugen,photo, id from #_news where type = ? and find_in_set('hienthi',status) order by numb,id desc", array('ho-so-nang-luc'), 'result', 7200);
 
+$chungnhan = $cache->get("select name$lang, photo, link from #_photo where type = ? and find_in_set('hienthi',status) order by numb,id desc", array('chung-nhan'), 'result', 7200);
+
 // need
 
 /* Get statistic */

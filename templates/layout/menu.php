@@ -11,7 +11,7 @@
                     title="Giới thiệu">Giới thiệu</a>
             </li>
             <li>
-                <a class="has-child transition  menu--line" title="Hồ sơ nhân lực">Hồ sơ nhân lực</a>
+                <a class="has-child transition  menu--line" title="Hồ sơ nhân lực">Hồ sơ năng lực</a>
                 <?php if(count($hoso)) { ?>
                 <ul>
                     <?php foreach($hoso as $klist => $vlist) { ?>

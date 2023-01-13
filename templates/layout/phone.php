@@ -5,11 +5,11 @@
                 <img src="assets/images/goidien.svg" alt="images">
                 Gọi điện
             </a>
-        </li>
-        <li class="content">
-            <a href="tel:<?= preg_replace('/[^0-9]/', '', $optsetting['hotline']); ?>"><?= $optsetting['hotline'] ?></a>
-            <a
-                href="tel:<?= preg_replace('/[^0-9]/', '', $optsetting['dienthoai']); ?>"><?= $optsetting['dienthoai'] ?></a>
+            <div class="content">
+                <a
+                    href="tel:<?= preg_replace('/[^0-9]/', '', $optsetting['hotline']); ?>"><?= $optsetting['hotline'] ?></a>
+                <a href="tel:<?= preg_replace('/[^0-9]/', '', $optsetting['phone']); ?>"><?= $optsetting['phone'] ?></a>
+            </div>
         </li>
 
 
@@ -29,7 +29,9 @@
         </li>
 
         <li>
-            <a id="chatfb" href="lien-he" title="title">
+            <a id="chatfb" target="_blank"
+                href="https://www.google.com/maps/dir/?api=1&amp;origin=&amp;destination=<?= $optsetting['address'] ?>"
+                title="Map">
                 <i class="fas fa-map-marker-alt"></i>
                 Chỉ đường
             </a>

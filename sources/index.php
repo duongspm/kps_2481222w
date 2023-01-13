@@ -20,7 +20,7 @@
 
     $lydo = $cache->get("select name$lang, content$lang, slugvi, slugen, desc$lang, date_created, id, photo from #_news where type = ? and find_in_set('noibat',status) and find_in_set('hienthi',status) order by numb,id desc", array('ly-do-chon-bao-ve'), 'result', 7200);
 
-    $videonb = $cache->get("select id from #_photo where type = ? and find_in_set('noibat',status) and find_in_set('hienthi',status)", array('video'), 'result', 7200);
+    $videonb = $cache->get("select * from #_photo where type = ? and find_in_set('noibat',status) and find_in_set('hienthi',status)", array('video'), 'result', 7200);
 
     //need
     /* SEO */

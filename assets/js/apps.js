@@ -554,7 +554,7 @@ NN_FRAMEWORK.countNumber = () => {
    
 }
 NN_FRAMEWORK.SlickBlog = () => {
-    $('.slick__blog').slick({
+    $('.slick__feedback').slick({
         autoplay: false,
         autoplaySpeed: 3000,
         speed: 1000,
